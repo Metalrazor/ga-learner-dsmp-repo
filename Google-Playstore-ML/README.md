@@ -1,24 +1,36 @@
 ### Project Overview
 
- High Rated Games on Google Playstore
+# High Rated Games on Google Playstore
 
+Google Play Store serves as the official app store for the Android operating system, allowing users to browse and download applications. Success of an app is largely determined by its ratings.
+
+But is there any particular pattern among high rated apps? Does size or genre of the app play a role in determining its high rating?
+
+### Aim of the Project
+
+It is a guided project, aimed at training the learner with industry level dataset. In this project I had the opportunity to learn how to conduct Exploratory Data Analysis and Data Pre-processing on datasets.
+
+#### Author : Praveen Shekar
+
+#### Language : Python 3
+
+#### Source of the Dataset : [Google Play Store Apps] (https://www.kaggle.com/lava18/google-play-store-apps "Playstore Apps Store")
+
+### About the Dataset
+
+Snapshot of the Data
+
+![Alt text](/relative/path/to/file.png?raw=true "Optional Title")
+
+The dataset has details of 10841 apps with following 13 features.
 
 ### Learnings from the project
 
- - Removing Missing Values.
-- Cleaning Data.
-- Exploring Data through various plots.
+In this project the following concepts were applied:
+- Data Encoding
+- Handling missing data
+- Treatment of Outliers
+- Data Transformation
 
-
-### Approach taken to solve the problem
-
- - Checking the data for Outliers and cleaning the same.
-- Exploring the data and dropping rows with NaN values.
-- Visualing Catplot feature against Rating using Catplot seaborn.
-- Converting the values in column to numerical data and Labeling the same using LabelEncoder from sklearn.
-- Visualising Rating feature against Price using Regression plot from seaborn.
-- Grouping Genres and Ratings feature by Genres and sorting by Rating to find the most popular and unpopular the genres.
-- Creating a new feature(Last Updated Days) showing the difference of date of update of each app from the one recently updated.
-- Plotting a Regression plot showing Rating against Last updated days.
 
 
