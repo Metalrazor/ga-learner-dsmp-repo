@@ -20,7 +20,7 @@ It is a guided project, aimed at training the learner with industry level datase
 
 Snapshot of the Data
 
-![Alt text](/relative/path/to/file.png?raw=true "Optional Title")
+![alt text](file.PNG "Dataset")
 
 The dataset has details of 10841 apps with following 13 features.
 
@@ -31,6 +31,3 @@ In this project the following concepts were applied:
 - Handling missing data
 - Treatment of Outliers
 - Data Transformation
-
-
-
