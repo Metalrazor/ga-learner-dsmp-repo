@@ -1,6 +1,6 @@
 ### Project Overview
 
- Forest type cover predicton
+# Forest type cover predicton
 
 The problem statement revolves around the need to predict the forest cover type (the predominant kind of tree cover) from strictly cartographic variables (as opposed to remotely sensed data).
 
@@ -8,9 +8,9 @@ It includes four wilderness areas located in the Roosevelt National Forest of no
 
 The study area includes four wilderness areas located in the Roosevelt National Forest of northern Colorado. Each observation is a 30m x 30m patch. You are asked to predict an integer classification for the forest cover type. 
 
-Aim of the Project:
+### Aim of the Project:
 
-It is a guided project, aimed at training the learner with industry level dataset. In this project I had the opportunity to learn how to conduct Exploratory Data Analysis and Data Pre-processing on datasets.
+It is a guided project, aimed at training the learner with industry level dataset. In this project I had the opportunity to learn how to conduct Feature selection on datasets using various methods.
 
 The seven types are:
 
@@ -22,15 +22,15 @@ The seven types are:
 6 - Douglas-fir 
 7 - Krummholz
 
-Author : Praveen Shekar
+#### Author : Praveen Shekar
 
-Language : Python 3
+#### Language : Python 3
 
-About the Dataset :
+### About the Dataset :
 
 Snapshot of the Data:
 
-![alt text](file.PNG "Dataset")
+![alt text](file.png "Dataset")
 
 You can observe there are more than 20+ features in the dataset. We will be working with this dataset to gather insights and look at the feature importance of each feature contributing towards the target variable. The data is in raw form (not scaled) and contains binary columns of data for qualitative independent variables such as wilderness areas and soil type.
 
@@ -41,10 +41,10 @@ The data set (15120 observations) contains both features and the Cover_Type.
 
  In this project the following concepts were applied -
 
--     How are the features important to our model.
--     How to select the most significant features out of many.
--     How to perform univariate feature selection.
--     How to perform a multivariate feature selection.
+- How are the features important to our model.
+- How to select the most significant features out of many.
+- How to perform univariate feature selection.
+- How to perform a multivariate feature selection.
 
 
 
